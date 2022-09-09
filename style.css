@@ -1,0 +1,406 @@
+    * {
+        margin: 0;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    
+    a {
+        color: white;
+        padding: 200px;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    
+    span {
+        color: rgb(154, 154, 46);
+    }
+    
+    h1 {
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    p {
+        padding: 30px;
+        font-size: 18px;
+    }
+    
+    header {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(bakgroand.webp);
+        height: 9.1vh;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .firstt {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(bakgroand.webp);
+        height: 32vh;
+    }
+    
+    .firsts {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(bakgroand.webp);
+        height: 33vh;
+        margin-top: 1px;
+        height: 140px;
+    }
+    
+    ul {
+        list-style-type: none;
+        float: right;
+        margin-top: 25px;
+    }
+    
+    ul li {
+        display: inline-block;
+    }
+    
+    ul li a {
+        text-decoration: none;
+        color: #fff;
+        padding: 5px 20px;
+        border: 1px solid transparent;
+        transition: 0.8s ease;
+    }
+    
+    ul li a:hover {
+        background-color: #fff;
+        color: black;
+    }
+    
+    b {
+        padding: 30px;
+        font-size: 22px;
+    }
+    
+    .first {
+        margin-top: 312px;
+        position: fixed;
+    }
+    
+    footer {
+        margin-top: 60px;
+    }
+    
+    .mainn a {
+        color: rebeccapurple;
+        font-size: 50px;
+        margin-left: 7px;
+    }
+    
+    .mains a {
+        color: rgb(255, 255, 255);
+        font-size: 55px;
+    }
+    
+    .frigider {
+        border: solid 2px red;
+        border-radius: 10px;
+        padding: 40px;
+        margin-left: 30px;
+        margin-top: 30px;
+        width: 300px;
+        cursor: pointer;
+        box-shadow: 10px 10px 10px rgb(48, 160, 123);
+    }
+    
+    .imprimanta {
+        border: solid 2px red;
+        border-radius: 10px;
+        padding: 40px;
+        margin-left: 30px;
+        margin-top: 30px;
+        width: 300px;
+        cursor: pointer;
+        box-shadow: 10px 10px 10px rgb(48, 160, 123);
+    }
+    
+    .uscatorr {
+        border: solid 2px red;
+        border-radius: 10px;
+        padding: 40px;
+        margin-left: 30px;
+        margin-top: -90px;
+        width: 300px;
+        cursor: pointer;
+        box-shadow: 10px 10px 10px rgb(48, 160, 123);
+    }
+    
+    .aer {
+        border: solid 2px red;
+        border-radius: 10px;
+        padding: 40px;
+        margin-left: 30px;
+        margin-top: 40px;
+        height: 600px;
+        width: 300px;
+        cursor: pointer;
+        box-shadow: 10px 10px 10px rgb(48, 160, 123);
+    }
+    
+    .frigider p {
+        font-size: 16px;
+        font-weight: 600;
+        width: 320px;
+        margin-left: -20px;
+        margin-top: -10px;
+    }
+    
+    #frigider_img {
+        margin-left: -20px;
+    }
+    
+    b {
+        font-size: 28px;
+        margin-left: 40px;
+    }
+    
+    .aragaz {
+        border: solid 2px red;
+        border-radius: 10px;
+        padding: 40px;
+        margin-left: 500px;
+        margin-top: -585px;
+        width: 300px;
+        cursor: pointer;
+        box-shadow: 10px 10px 10px rgb(48, 160, 123);
+    }
+    
+    .aspirator {
+        border: solid 2px red;
+        border-radius: 10px;
+        padding: 40px;
+        margin-left: 500px;
+        margin-top: -619px;
+        width: 300px;
+        height: 535px;
+        cursor: pointer;
+        box-shadow: 10px 10px 10px rgb(48, 160, 123);
+    }
+    
+    .laptop {
+        border: solid 2px red;
+        border-radius: 10px;
+        padding: 40px;
+        margin-left: 500px;
+        margin-top: -635px;
+        width: 300px;
+        height: 560px;
+        cursor: pointer;
+        box-shadow: 10px 10px 10px rgb(48, 160, 123);
+    }
+    
+    .cuptorr {
+        border: solid 2px red;
+        border-radius: 10px;
+        padding: 40px;
+        margin-left: 500px;
+        margin-top: -700px;
+        width: 300px;
+        cursor: pointer;
+        box-shadow: 10px 10px 10px rgb(48, 160, 123);
+    }
+    
+    .ac {
+        border: solid 2px red;
+        border-radius: 10px;
+        padding: 40px;
+        margin-left: 30px;
+        margin-top: 70px;
+        width: 200px;
+        cursor: pointer;
+        box-shadow: 10px 10px 10px rgb(48, 160, 123);
+    }
+    
+    .uscatorr {
+        border: solid 2px red;
+        border-radius: 10px;
+        padding: 40px;
+        margin-left: 30px;
+        margin-top: 30px;
+        width: 300px;
+        cursor: pointer;
+        box-shadow: 10px 10px 10px rgb(48, 160, 123);
+    }
+    
+    #aragaz_img {
+        margin-left: -1px;
+        margin-top: 40px;
+    }
+    
+    #aspirator_img {
+        margin-left: 30px;
+        margin-top: -110px;
+    }
+    
+    .aragaz p {
+        font-size: 16px;
+        font-weight: 600;
+        width: 320px;
+        margin-left: -20px;
+        margin-top: -40px;
+    }
+    
+    .masina p {
+        font-size: 16px;
+        font-weight: 600;
+        width: 320px;
+        margin-left: -20px;
+        margin-top: -40px;
+    }
+    
+    #masina_img {
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+    
+    .masina {
+        border: solid 2px red;
+        border-radius: 10px;
+        padding: 40px;
+        margin-left: 970px;
+        margin-top: -660px;
+        width: 300px;
+        height: 560px;
+        cursor: pointer;
+        box-shadow: 10px 10px 10px rgb(48, 160, 123);
+    }
+    
+    .masinaa {
+        border: solid 2px red;
+        border-radius: 10px;
+        padding: 40px;
+        margin-left: 970px;
+        margin-top: -635px;
+        width: 300px;
+        height: 530px;
+        cursor: pointer;
+        box-shadow: 10px 10px 10px rgb(48, 160, 123);
+    }
+    
+    .hota {
+        border: solid 2px red;
+        border-radius: 10px;
+        padding: 40px;
+        margin-left: 970px;
+        width: 300px;
+        margin-top: -675px;
+        height: 600px;
+        cursor: pointer;
+        box-shadow: 10px 10px 10px rgb(48, 160, 123);
+    }
+    
+    .tv {
+        border: solid 2px red;
+        border-radius: 10px;
+        padding: 40px;
+        margin-left: 970px;
+        margin-top: -580px;
+        width: 300px;
+        height: 500px;
+        cursor: pointer;
+        box-shadow: 10px 10px 10px rgb(48, 160, 123);
+    }
+    
+    button {
+        margin-left: 10px;
+        font-size: 15px;
+        background-color: red;
+        border-radius: 20px;
+        font-size: 18px;
+        cursor: pointer;
+        font-weight: 600;
+        margin-top: 30px;
+    }
+    
+    .rufe {
+        margin-left: 90px;
+        font-size: 15px;
+        background-color: red;
+        border-radius: 20px;
+        font-size: 18px;
+        cursor: pointer;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+    
+    body {
+        height: 100%;
+    }
+    
+    .p {
+        color: blue;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .text {
+        margin-top: -10px;
+        width: 60px;
+    }
+    
+    .about {
+        width: 100%;
+        padding: 78px 0px;
+        background-color: #191919;
+    }
+    
+    .about img {
+        height: auto;
+        width: 420px;
+    }
+    
+    .about-text {
+        width: 550px;
+    }
+    
+    .main {
+        width: 1130px;
+        max-width: 95%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .about-text h1 {
+        color: #fff;
+        font-size: 80px;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+    }
+    
+    .about-text h5 {
+        color: #fff;
+        font-size: 25px;
+        text-transform: capitalize;
+        margin-bottom: 25px;
+        letter-spacing: 2px;
+    }
+    
+    span {
+        color: #f9004d;
+    }
+    
+    .about-text p {
+        color: #fcfc;
+        letter-spacing: 1px;
+        line-height: 28px;
+        font-size: 18px;
+        margin-bottom: 45px;
+    }
+    
+    .buton {
+        background: #f9004d;
+        color: #fff;
+        text-decoration: none;
+        border: 2px solid transparent;
+        font-weight: bold;
+        padding: 13px 30px;
+        border-radius: 30px;
+        transition: .4s;
+    }
+    
+    .buton:hover {
+        background: transparent;
+        border: 2px solid #f9004d;
+        cursor: pointer;
+    }
